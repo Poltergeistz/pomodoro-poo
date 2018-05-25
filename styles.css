@@ -1,0 +1,68 @@
+h1{
+    color: whitesmoke;
+    text-shadow: 2px 4px 4px black;
+}
+
+span{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(151, 42, 42);
+    text-shadow : 2px 4px 4px black;
+}
+
+.content{
+    
+    width:auto;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+   /* background-image: url("img/4ADG1TdYAC-9.png");
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+#minuteur{
+    margin: 20px;
+    
+}
+
+#task{
+
+}
+
+#start{
+    background-color: rgb(49, 167, 33);
+    border: 1px black;
+    border-radius: 5px;
+
+}
+
+#short-pause{
+    background-color: rgb(55, 175, 129);
+    border: 1px black;
+    border-radius: 5px;
+}
+
+#long-pause{
+    background-color: rgb(33, 102, 167);
+    border: 1px black;
+    border-radius: 5px;
+}
+
+#stop{
+    background-color: rgb(175, 41, 23);
+    border: 1px black;
+    border-radius: 5px;
+}
+
+#enter-task{
+
+}
+
+#del-task{
+
+}
+
+#todolist{
+
+}

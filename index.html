@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="pomodoro.js"></script>
+    <title>Pomodoro</title>
 </head>
+
 <body>
+    <div class="content">
+        <h1>Pomodoro</h1>
+        <div>
+            <h3>En cours</h3>
+            <button id="enter-task" onclick="">todo</button>
+            <input type="textarea" id="task">
+            <button id="del-task" onclick="">done</button>
+            <div id="todos"></div>
+        </div>
+        <div id="minuteur">
+            <span id="minutes">25</span>
+            <span id="colon">:</span>
+            <span id="secondes">00</span>
+        </div>
+        <div>
+            <button id="start" onclick="pomodoro.start()">Start</button>
+            <button id="short-pause" onclick="">Short pause</button>
+            <button id="long-pause" onclick="">Long pause</button>
+            <button id="stop" onclick="">Stop</button>
+            <div id="todolist">
+            </div>
+        </div>
+    </div>
     
 </body>
+
 </html>
